@@ -4,7 +4,7 @@ scoreSum = dicScore["국어"] + dicScore["영어"] + dicScore["수학"] + dicSco
 print("1. 평균 점수 : {0}".format(scoreSum / len(dicScore)))
 print("-" * 10)
 
-# 2. set을 이용해서 1~100까지 숫자 중에 3과 5의 공배수를 구함
+# 2. set을 이용해서 1~100까지 숫자 중에 3과 5의 공배수와 합집합을 구함
 multi3 = {i for i in range(1, 101) if i % 3 == 0}
 multi5 = {i for i in range(1, 101) if i % 5 == 0}
 print("2. 3과 5의 공배수 : {0}".format(multi3 & multi5))
